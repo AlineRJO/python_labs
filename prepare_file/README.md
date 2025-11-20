@@ -15,3 +15,18 @@ Para tratar o conteúdo do arquivo como um conjunto de linhas e não um monte de
 ## write_file
 
 A sequência a ser gravada consiste na palavra linha, seguida do número da linha. Decidimos escrever o conteúdo da string caractere por caractere (isso é feito pelo loop for interno), mas você não tem a obrigação de fazer dessa maneira.
+
+## Lab 1 - Histograma de frequência de caracteres classificados
+
+Sua tarefa é fazer algumas alterações, que geram os seguintes resultados:
+
+o histograma de saída será classificado com base na frequência dos caracteres (o contador maior deve ser apresentado primeiro)
+o histograma deverá ser enviado para um arquivo com o mesmo nome do arquivo de entrada, mas com o sufixo '.hist' (deverá ser concatenado ao nome original)
+Supondo que o arquivo de entrada contenha apenas uma linha preenchida com: cBabAa
+a saída esperada deve ser a seguinte:
+
+a -> 3
+b -> 2
+c -> 1
+
+Obs: use um lambda para alterar a ordem de classificação.
